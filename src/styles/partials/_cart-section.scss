@@ -1,0 +1,256 @@
+.cart-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  
+  .cart-item img {
+    max-width: 100px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .cart-item .info {
+    flex-grow: 1;
+  }
+  
+  .cart-item .info .size {
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 5px;
+    font-size: 0.8em;
+  }
+  
+  .cart-item .info .price {
+    font-size: 0.9em;
+    margin-left: auto;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+  }
+  
+  .quantity label {
+    margin-right: 10px;
+  }
+
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-controls button {
+    font-size: 0.8em;
+    padding: 3px 6px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 0 4px;  /* Space between buttons */
+  }
+
+  .quantity-controls button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .order-details h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .order-details hr {
+    margin: 5px 0;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+  }
+  
+  .subtotal,
+  .net-total {
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .discount p {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+  }
+  
+  .discount p span {
+    margin-left: 5px; 
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: 8px;
+    right: 350px;
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 50%;
+    padding: 4px 8px;
+    font-size: 0.8em;
+  }
+  
+  .remove-btn {
+    margin-left: 10px;
+    font-size: 0.9em;
+    padding: 6px 12px;
+    background-color: #ff6f61;
+    color: #fff;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .remove-btn:hover {
+    background-color: #ff4f3f;
+  }
+
+  .checkout-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .checkout-section hr {
+    margin: 10px 0;
+  }
+  
+  .checkout-buttons button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .checkout-buttons .checkout-btn {
+    background-color: #4caf50;
+    color: #fff;
+  }
+
+  .checkout-buttons .checkout-btn:hover {
+    background-color: #3e8f40;
+  }
+  
+  .checkout-buttons .continue-shopping-btn {
+    background-color: #ff6f61;
+    color: #fff;
+  }
+
+  .checkout-buttons .continue-shopping-btn:hover {
+    background-color: #ff4f3f;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  @media screen and (max-width: 400px) {
+    .cart-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .cart-item img {
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .quantity {
+      font-size: 0.9em;
+    }
+  
+    .quantity label {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .quantity-controls button {
+      font-size: 0.8em;
+      padding: 3px 6px;
+    }
+  
+    .remove-btn {
+      margin-left: 0;
+      margin-top: 5px;
+      font-size: 0.9em;
+      padding: 6px 12px;
+    }
+  
+    .checkout-buttons button {
+      font-size: 0.9em;
+      padding: 8px 16px;
+    }
+  }
+
+  .empty-cart {
+    text-align: center;
+  }
+  
+  .empty-cart img {
+    max-width: 400px;
+  }
+  
+  .empty-cart p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .empty-cart button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0.75em 1em;
+    font-size: 1em;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px var(--shadow-color);
+    text-transform: uppercase;
+
+    &:hover {
+      box-shadow: 0 1px 3px var(--shadow-color);
+  }
+  }
+
+
+
+
+
+  
+  
+
+  
+
+  
+ 

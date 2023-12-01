@@ -1,0 +1,48 @@
+.completion-container {
+    text-align: center;
+    margin-top: 30px; 
+    margin-bottom: 50px;
+  }
+  
+  .tick-image {
+    width: 150px; 
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-message {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .thanks-message  {
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .done-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0.75em 1em;
+    font-size: 1em;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px var(--shadow-color);
+    text-transform: uppercase;
+
+    &:hover {
+        box-shadow: 0 1px 3px var(--shadow-color);
+    }
+  }
+  
+  
+  
